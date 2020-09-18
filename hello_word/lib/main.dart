@@ -20,7 +20,10 @@ class MyApp extends StatelessWidget {
                 child: Text(
                   "Belajar Flutter Semoga Istiqomah ya",
                   textAlign: TextAlign.center,
-                  style: TextStyle(color: Colors.white, fontSize:  12, fontWeight: FontWeight.bold),
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 12,
+                      fontWeight: FontWeight.bold),
                 ))),
       ),
     );
